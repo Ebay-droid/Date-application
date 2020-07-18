@@ -1,7 +1,7 @@
 function myDate() {
   var date = document.getElementById("date").value; 
-  //var gender = document.getElementById ("male", "female")
-  alert(date + gender).onsubmit;
+  var gender = document.getElementById("gender").value
+  alert(date + ',' + gender).onsubmit;
 
 
 //if(date === "12-12-2020" && gender === "male"){
