@@ -9,18 +9,22 @@
 </head>
 <body>
   <h2>Date and Name calculation</h2>
+  <p> This application will let you know your
+     Akan name simply by typing in your  birthday. 
+     Akan names are names derived from the day of the week you were born in ghanaian culture.</p>
 
   <p>Please enter your date of birth details in the form below:</p>
   <form action="index.html" id="dates">
-    <label for="date">Date:</label><br>
+    <label for="date">Birthday:</label><br>
     <input type="text" id="date"><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
     <input type="button" onclick="myDate()" value="Submit" id="button">
 
 
-    <input type="radio" id="male">
-    <label for="male">Male</label>
-    <input type="radio" id="female">
-    <label for="female">Female</label>
+  
 
   </form>
 
