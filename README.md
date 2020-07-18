@@ -18,3 +18,6 @@ Github:
 
 ### Technology used:
 
+## Contact Information:
+
+

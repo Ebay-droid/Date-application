@@ -1,9 +1,6 @@
 function myDate() {
   var date = document.getElementById("date").value; 
-  //var gender1 = document.getElementById("male").value;
-  //var gender2 = document.getElementById("female").value
-  //alert(date).onsubmit; 
-  var gender = document.getElementById ("male", "female")
+  //var gender = document.getElementById ("male", "female")
   alert(date + gender).onsubmit;
 
 
