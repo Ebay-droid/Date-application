@@ -1,10 +1,9 @@
 function myDate() {
-  var day = document.getElementById("day".value);
-  var month = document.getElementById("month".value);
-  var year = document.getElementById("year".value);
+  var date = document.getElementById("date").value;
+ 
 
 
-  alert( day+month+year).onsubmit;
+  alert( date).onsubmit;
  
 }
 
