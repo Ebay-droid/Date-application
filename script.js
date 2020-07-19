@@ -1,66 +1,62 @@
 function myDate() {
   var date = document.getElementById("date").value; 
   var gender = document.getElementById("gender").value
-  var myDay = new Date(date);
-  // alert(date + ','+ ' ' + myDay.getDay() + ',' + ' ' + gender).onsubmit
+ //validate date value
+ //1. check if value exists.
+ if (date == '') {
+alert("Please select date");
+return;
+ }
+ console.log(date)
+ //2. check if date format is right.
 
-    if(myDay.getDay() == "0" && gender == "Male"){
-
-     alert("Kwasi").onsubmit;
-   }
-    else if(myDay.getDay() == "0" && gender == "Female"){
-      
-      alert("Akosua").onsubmit;
-    }
-    else if(myDay.getDay() == "1" && gender == "Male"){
-
-      alert("Kwadwo").onsubmit;
-    }
-    else if(myDay.getDay() == "1" && gender == "Female"){
-
-     alert("Adwoa").onsubmit;
-    }
-   else if(myDay.getDay() == "2" && gender == "Male"){
-
-      alert("Kwabena").onsubmit;
-    }
-    else if(myDay.getDay() == "2" && gender == "Female"){
-
-     alert("Abena").onsubmit;
-    }
-    else if(myDay.getDay() == "3" && gender == "Male"){
-
-      alert("Kwaku").onsubmit;
-    }
-    else if(myDay.getDay() == "3" && gender == "Female"){
-
-      alert("Akua").onsubmit;
-    }
-    else if(myDay.getDay() == "4" && gender == "Male"){
-
-      alert("Yaw").onsubmit;
-    }
-    else if(myDay.getDay() == "4" && gender == "Female"){
-
-      alert("Yaa").onsubmit;
-    }
-    else if(myDay.getDay() == "5" && gender == "Male"){
-
-      alert("Kofi").onsubmit;
-    }
-    else if(myDay.getDay() == "5" && gender == "Female"){
-
-      alert("Afua").onsubmit;
-    }
-    else if(myDay.getDay() == "6" && gender == "Male"){
-
-      alert("Kwame").onsubmit;
-    }
-    else if(myDay.getDay() == "6" && gender == "Female"){
-
-      alert("Ama").onsubmit;
-    }
- 
   
+  var myDay = new Date(date);
+  var currentDay = myDay.getDay();
+
+  if (currentDay < '0' || currentDay > '31') {
+    alert( Your date is invalid)
+  }
+
+  displayName(currentDay, gender);
+    
+}
+
+function displayName(currentDay, gender) {
+  if (gender == "Male") {
+    if (currentDay == "0")
+      alert("Kwasi").onsubmit;
+    if (currentDay == "1")
+      alert("Kwadvo").onsubmit;
+    if (currentDay == "2")
+      alert("Kwabena").onsubmit;
+    if (currentDay == "3")
+      alert("Kwaku").onsubmit;
+    if (currentDay == "4")
+      alert("Yaw").onsubmit;
+    if (currentDay == "5")
+      alert("Kofi").onsubmit;
+    if (currentDay == "6")
+      alert("Kwame").onsubmit;
+
+  }
+  else {
+    if (currentDay == "0")
+      alert("Akosua").onsubmit;
+    if (currentDay == "1")
+      alert("Adowa").onsubmit;
+    if (currentDay == "2")
+      alert("Abena").onsubmit;
+    if (currentDay == "3")
+      alert("Akua").onsubmit;
+    if (currentDay == "4")
+      alert("Yaa").onsubmit;
+    if (currentDay == "5")
+      alert("Afua").onsubmit;
+    if (currentDay == "6")
+      alert("Ama").onsubmit;
+
+
+  }
 }
 

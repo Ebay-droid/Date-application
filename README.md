@@ -10,14 +10,24 @@ Name: Ebenezer Gakuo
 
 Email: gakuoebenezer@gmail.com
 
-Github:
+Github: https://ebay-droid.github.io/Portfolio-landing-page/
 
 ## Set-up instructions:
 
+Visit 
+1. Enter your Date of Birth in the specified format.accordion
+
+2. Select your Gender.
+
+3. A dialogue box appears showing your Akan name.
+
 ## BDD:
 
-### Technology used:
+### Technology used:  
+
+The application is written in HTML, CSS, BOOTSTRAP and JAVASCRIPT
 
 ## Contact Information:
+
 
 
