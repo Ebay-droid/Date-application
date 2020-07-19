@@ -1,18 +1,17 @@
 function myDate() {
   var date = document.getElementById("date").value; 
   var gender = document.getElementById("gender").value
-  //alert(date + ',' + gender).onsubmit;
-  //var myDay = date.getDay()
-  //alert(myDay.getDay).onsubmit;
   var myDay = new Date(date);
-  //console.log(myDay.getDay)
+  // alert(date + ','+ ' ' + myDay.getDay() + ',' + ' ' + gender).onsubmit
 
+  if(myDay === "0" && gender === "Male"){
 
-
-   alert(date + ','+ ' ' + myDay.getDay() + ',' + ' ' + gender).onsubmit
-
-
-
+    alert("Kwasi").onsubmit
+  }
+  else if(myDay === "0" && gender === "Female"){
+    
+    alert("Akosua").onsubmit
+  }
 
 
 }
