@@ -21,13 +21,18 @@ Visit
 
 3. A dialogue box appears showing your Akan name.
 
-## BDD:
+## BDD: 
+
 
 ### Technology used:  
 
 The application is written in HTML, CSS, BOOTSTRAP and JAVASCRIPT
 
 ## Contact Information:
+Email : gakuoebenezer@gmail.com
 
+### LICENCE : 
+
+https://raw.githubusercontent.com/Ebay-droid/Date-application/master/LICENSE
 
 

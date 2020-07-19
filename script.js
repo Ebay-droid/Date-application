@@ -4,8 +4,8 @@ function myDate() {
  //validate date value
  //1. check if value exists.
  if (date == '') {
-alert("Please select date");
-return;
+    alert("Please select date");
+    return;
  }
  console.log(date)
  //2. check if date format is right.
