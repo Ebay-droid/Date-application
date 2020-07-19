@@ -15,11 +15,10 @@ function myDate() {
   var currentDay = myDay.getDay();
 
   if (currentDay < '0' || currentDay > '31') {
-    alert( Your date is invalid)
+    alert( "Your date is invalid")
   }
 
-  displayName(currentDay, gender);
-    
+  displayName(currentDay, gender);  
 }
 
 function displayName(currentDay, gender) {
