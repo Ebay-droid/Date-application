@@ -9,3 +9,10 @@ input {
 h2{
   color: darkgreen;
 }
+
+#day, #month {
+  width: 3%;
+}
+#year{
+  width: 10%;
+}
