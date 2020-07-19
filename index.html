@@ -11,31 +11,32 @@
 <div class="container-fluid">
   <body>
     <div>
-       <h2 class="jumbotron">Date and Name calculation</h2>
+       <h2 class="jumbotron">Akan name calculation</h2>
     </div>
 
     <div>
       <p> This application will let you know your
         Akan name simply by typing in your  birthday. <br>
-        Akan names are names derived from the day of the week you were born in ghanaian culture.</p>
+        Akan names are names derived from the day of the week you were born in Ghanaian culture.</p>
+        <p>For more on Akan names you can check out <a href="https://yen.com.gh/115080-akan-names-meanings.html" target="blank">Akan names</a></p>
 
       <p>Please enter your date of birth details in the form below:</p>
     </div>
 
-    <div>
-      <form action="index.html" >
+    <div class="row">
+      <form action="index.html" class="card col-md-4" >
        
-          <label for="date">Birthday:</label><br>
-          <input type="text" id="date"><br>
-
+          <label for="date">Date: </label><br>
+          <input class="form-control" type="date" id="date"><br>
+          
           <label for="gender">Choose gender</label>
-          <select name="gender" id="gender">
+          <select class="form-control" name="gender" id="gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select>
-
+          <br>
         
-          <input type="button" onclick="myDate()" value="Submit" id="button">
+          <input class="btn btn-primary" type="button" onclick="myDate()" value="Submit" id="button">
       
       </form>
     </div>

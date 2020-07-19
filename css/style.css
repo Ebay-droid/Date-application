@@ -2,17 +2,14 @@ input {
   margin-bottom: 20px;
 }
 
-#button{
-  color: coral;
-}
-
 h2{
   color: darkgreen;
 }
 
-#day, #month {
-  width: 3%;
+.card{
+  background-color: rgb(88, 7, 82);
 }
-#year{
-  width: 10%;
+
+.container-fluid{
+ background-image: url(../images/pattern-3160023_1920.jpg);
 }
