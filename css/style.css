@@ -13,3 +13,9 @@ h2{
 .container-fluid{
  background-image: url(../images/pattern-3160023_1920.jpg);
 }
+
+.jumbotron{
+  opacity: 60%;
+  font-style: italic;
+font-family:  @import url(https://fonts.googleapis.com/css?family=Rosario:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+}
