@@ -22,6 +22,7 @@ Visit
 3. A dialogue box appears showing your Akan name.
 
 ## BDD: 
+Given that the user enters a valid Date of Birth and selects their Gender, then the program  checks the day of the week that the date was and then checks the corresponding Akan name and sends an alert with their Akan name.
 
 
 ### Technology used:  
